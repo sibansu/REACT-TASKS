@@ -6,6 +6,7 @@ function Home() {
     { id: 2, name: 'Task 2', link: '/task2' },
     { id: 3, name: 'Task 3', link: '/task3' },
     { id: 4, name: 'Task 4', link: '/task4' },
+    { id: 4, name: 'Task 5', link: '/task5' },
   ];
   return (
     <>

@@ -5,6 +5,7 @@ import Task1 from './Components/Task1';
 import Task3 from './Components/Task3';
 import Home from './Components/Home';
 import Task4 from './Components/Task4';
+import Task5 from './Components/Task5';
 function App() {
   const colors = [
     'red',
@@ -35,6 +36,7 @@ function App() {
         <Route exact path='/task1' element={< Task1 />}></Route>
         <Route exact path='/task3' element={< Task3 colors={colors}/>}></Route>
         <Route exact path='/task4' element={< Task4 />}></Route>
+        <Route exact path='/task5' element={< Task5 />}></Route>
       </Routes>
     </BrowserRouter>
   );
