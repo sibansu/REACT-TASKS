@@ -29,6 +29,11 @@ function Task4() {
           <th>Gender</th>
           <th>Username</th>
           <th>Address</th>
+          <th>Birth Date</th>
+          <th>Height</th>
+          <th>Weight</th>
+          <th>Bank</th>
+          <th>Companyt</th>
         </tr>
       </thead>
       <tbody>
@@ -42,6 +47,11 @@ function Task4() {
             <td>{user.gender}</td>
             <td>{user.username}</td>
             <td>{user.address.address}, {user.address.city}</td>
+            <td>{user.birthDate}</td>
+            <td>{user.height}</td>
+            <td>{user.weight}</td>
+            <td>{user.bank.cardExpire}</td>
+            <td>{user.company.name}</td>
           </tr>
         ))}
       </tbody>
